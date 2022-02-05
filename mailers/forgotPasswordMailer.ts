@@ -4,7 +4,6 @@
  * and then export it. That way you can import here and anywhere else
  * and use it straight away.
  */
-import previewEmail from "preview-email";
 import sgMail from "@sendgrid/mail";
 sgMail.setApiKey(process.env.SENDGRID_API_KEY ?? "");
 
